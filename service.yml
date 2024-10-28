@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: complete-production-e2e-app-service
+spec:
+  selector:
+    app: complete-production-e2e-app
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+  type: NodePort  # Remplacer par NodePort ou LoadBalancer si un accès externe est requis
+
+
