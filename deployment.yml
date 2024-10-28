@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: complete-production-e2e-app
-        image: saknouche/e2e-devops-jenkins:1.0.0-19
+        image: saknouche/e2e-devops-jenkins:1.0.0-20
         resources:
           limits:
             memory: "256Mi"
